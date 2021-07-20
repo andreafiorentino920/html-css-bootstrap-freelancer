@@ -35,13 +35,23 @@ a{
     width: 500px;
 }
 
-.item-2 .container{
+
+.skill{
+    padding-bottom: 40px;
+}
+
+.color-grey{
     color: #2c3e50;
 }
 
-.decoration-2 .line{
+.bckg-grey{
     background-color: #2c3e50;
 }
-.skill{
-    padding-bottom: 40px;
+
+.up-footer{
+    background-color: #3a546d;
+}
+
+.down-footer{
+    background-color: #2c3e50;
 }
