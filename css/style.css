@@ -4,7 +4,7 @@ header{
 }
 
 nav div a{
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 a{
@@ -12,12 +12,12 @@ a{
     color: white;
 }
 
-.row .col-12 img{
+.section-start img{
     width: 10%;
     border-radius: 50%;
 }
 
-.item-1, .item-3{
+.section-start, .section-about{
     background-color: #1abc9c;
  }    
 
@@ -29,11 +29,16 @@ a{
     border-radius: 3px;
 } 
 
-[class*="decoration-"]{
+.decoration{
     display: inline-block;
     height: 30px;
     width: 500px;
 }
+
+[class*="section-"], .up-footer{
+    padding: 40px 0 35px 0;
+}
+
 
 
 .skill{
@@ -53,5 +58,5 @@ a{
 }
 
 .down-footer{
-    background-color: #2c3e50;
+    padding: 20px 0 20px 0;
 }
